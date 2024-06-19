@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+	text-decoration: none;
+}
+
+.settings {
+	width: 1778px;
+	height: 1000px;
+	position: relative;
+}
+
+.first-floor {
+	width: 350px;
+	height: 150px;
+	position: absolute;
+	left: 300px;
+	bottom: 400px;
+}
+
+.second-floor {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	left: 600px;
+	top: 150px;
+}
+
+.third-floor {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	right: 180px;
+	top: 50px;
+	display: inline-block;
+}
+
+.digestive img.digestive-hover {
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 155px;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.digestive:hover img.digestive-hover {
+	opacity: 1;
+}
+
+.heart {
+	width:160px;
+	margin-left: 55px;
+	display: inline-block;
+}
+
+.heart img.heart-hover {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	left: 57px;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.heart:hover img.heart-hover {
+	opacity: 1;
+}
+
+.brain {
+	position: absolute;
+	width: 200px;
+	height: 150px;
+	max-width: 100%;
+	top: 50px;
+	right: 20px;
+	z-index:1;
+}
+
+.brain img.image-hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.brain:hover img.image-hover {
+	opacity: 1;
+}
+
+.protagonist {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 800px;
+	bottom: 180px;
+}

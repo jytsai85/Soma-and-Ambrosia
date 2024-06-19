@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.settings {
+	width: 1778px;
+	height: 1000px;
+	position: relative;
+}
+
+.protagonist {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	left:810px;
+	bottom: 170px;
+}
+
+.option01 {
+	width:300px;
+	height:300px;
+	position: absolute;
+	left: 300px;
+	bottom: 250px;
+}
+
+.option02 {
+	width:300px;
+	height:300px;
+	position: absolute;
+	right: 300px;
+	bottom: 250px;
+}
+
+.main-image {
+	position:relative;
+}
+
+.option01 img.dinner-1-hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.option01:hover img.dinner-1-hover {
+	opacity: 1;
+}
+
+.option02 img.dinner-2-hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.option02:hover img.dinner-2-hover {
+	opacity: 1;
+}

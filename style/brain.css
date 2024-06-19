@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.settings {
+	width: 1778px;
+	height: 1000px;
+	position: relative;
+}
+
+.back {
+	width: 200px;
+	height:300px;
+	position: absolute;
+	top: 300px;
+	right:50px;
+	
+}
+
+.button {
+	width: 160px;
+	height:120px;
+}
+
+.button img.image-hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.button:hover img.image-hover {
+	opacity: 1;
+}
+
+.arrow-box {
+	width: 160px;
+	height:100px;
+	margin-top: 20px;
+}
+
+img.arrow {
+	margin: auto auto auto 25px;
+}
+
+.chat-box {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	right: 275px;
+	bottom: 305px;
+	z-index: 1;
+}
+
+.chat-bubble {
+	margin: 60px auto auto 50px;
+}
+
+.selection {
+	width: 120px;
+	height: 50px;
+	margin-left: 120px;
+}
+
+.yes, .no {
+	width: 50px;
+	height: 30px;
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.yes img.yes-image-hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.yes:hover img.yes-image-hover {
+	opacity: 1;
+}
+
+.no img.no-image-hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.no:hover img.no-image-hover {
+	opacity: 1;
+}
+
+.protagonist {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 400px;
+	bottom: 180px;
+}
